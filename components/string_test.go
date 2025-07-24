@@ -6,8 +6,8 @@ import (
 	"github.com/forrest/go-flow/core"
 )
 
-func TestToUpper(t *testing.T) {
-	c := NewToUpper()
+func TestUpperCase(t *testing.T) {
+	c := NewUpperCase()
 	inputs := map[string]interface{}{
 		"input": "hello",
 	}
